@@ -1,0 +1,99 @@
+.resultsCont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  width: 100%;
+}
+
+.youOppoCont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .youOppoCont {
+    width: 60%;
+  }
+}
+
+@media (min-width: 992px) {
+  .youOppoCont {
+    width: 40%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .youOppoCont {
+    width: 35%;
+  }
+}
+
+.youCont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.youHead {
+  color: white;
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 16px;
+  margin: 0px;
+  margin-bottom: 7px;
+}
+
+.youImg {
+  height: 140px;
+  width: 140px;
+  margin: 0px;
+}
+
+@media (min-width: 768px) {
+  .youImg {
+    height: 165px;
+    width: 165px;
+  }
+}
+
+.playCont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.playHead {
+  color: white;
+  font-size: 25px;
+  font-family: Roboto;
+  font-weight: bold;
+}
+
+.playBtn {
+  color: #223a5f;
+  background-color: white;
+  font-weight: bold;
+  border-radius: 8px;
+  border: 0px;
+  height: 40px;
+  width: 150px;
+  transition: all 0.1s linear;
+  cursor: pointer;
+  outline: none;
+}
+
+.playBtn:hover {
+  background-color: white;
+}
+
+.playBtn:active {
+  transform: translateY(8px);
+}
